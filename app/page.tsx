@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="grid @4xl:grid-cols-[300px_auto]">
       <div className="bg-blue-50 hidden @4xl:flex">
-        <div className="flex flex-col overflow-scroll">
+        <div className="overflow-scroll">
           <div className="sticky top-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ export default function Home() {
               <path d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75M1 8a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 8m0 5.25a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1-.75-.75" />
             </svg>
           </div>
-          <p className="p-3">
+          <p>
             Opening the dialog and resizing the window until this sidebar
             disappears causes the tab to crash in Chromium based browser with
             STATUS_ACCESS_VIOLATION.
